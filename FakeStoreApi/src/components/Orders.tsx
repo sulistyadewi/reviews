@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import jsPDF from "jspdf";
 import autoTable, { type HeaderFooter } from "jspdf-autotable";
 // import HeaderFooter from "jspdf-autotable";
