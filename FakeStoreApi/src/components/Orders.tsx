@@ -148,7 +148,7 @@ const Orders = () => {
         didDrawPage: addHeaderFooter,
       });
 
-      let finalY = (doc as any).lastAutoTable.finalY || 110;
+      // let finalY = (doc as any).lastAutoTable.finalY || 110;
       doc.setFontSize(14);
       doc.text(`Total Paymemt : $${order.total.toFixed(2)}`, 20, 150);
       doc.save(`order-${order.id}`);

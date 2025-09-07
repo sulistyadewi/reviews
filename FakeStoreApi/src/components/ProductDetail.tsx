@@ -1,10 +1,8 @@
-import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import type { Product } from "../types";
 import { FaStar } from "react-icons/fa";
 import { BsCartPlus } from "react-icons/bs";
-import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa";
 
 interface Props {
