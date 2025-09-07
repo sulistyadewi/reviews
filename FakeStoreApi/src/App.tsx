@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import CategoryFilter from "./components/CategoryFilter";
 import ProductList from "./components/ProductList";
 import type { Product } from "./types";
